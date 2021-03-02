@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	color: #333
+}
+
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+ul {
+	list-style: none;
+}
+
+/*** header ***/
+
+.header {
+	margin: 0 auto;
+	padding: 20px 0;
+	background-color: #291D1D;
+}
+
+.header-inner {
+	display: flex;
+		justify-content: space-around;
+}
+
+.header-logo {
+	display: block;
+	margin: 0;
+}
+
+.header-gnav {
+	display: block;
+	width: 444px;
+}
+
+.header-gnavList {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-gnavList li {
+	display: block;
+}
+
+.header-gnavList a {
+	color: #EEECE8;
+	text-decoration: none;
+}
+
+/* ハンバーガーメニュー */
+/*
+#menubtn img{
+	width: 100%;
+	max-width: 50px;
+}
+.w1000{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+nav{
+	background-color: #ccc;
+	padding: 20px 3%;
+}
+*/
+.nav-input{
+	display: none;
+}
+
+.nav-hidden{
+	display: none;
+}
+
+
+/*** main ***/
+
+.section {
+	margin: 0 auto 80px;
+}
+
+.subheading {
+	background-color: #4A3E3E;
+	padding: 40px;
+}
+
+.subtitle {
+	font-size: 40px;
+	color: #EEECE8;
+	text-align: center;
+}
+
+/*** footer ***/
+
+.footer {
+	margin: 0 auto;
+	padding: 20px 0;
+	background-color: #291D1D;
+	text-align: center;
+}
+
+.footer-sns {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.footer-sns a {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.footer-sns img {
+	vertical-align: middle;
+}
+
+.footer-copyright {
+	margin: 0;
+}
+
+.footer-copyright small {
+	font-size: 13px;
+	color: #EEECE8;
+}
