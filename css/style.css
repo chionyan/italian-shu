@@ -10,7 +10,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 100vw;
 	vertical-align: bottom;
 }
 
@@ -95,6 +95,32 @@ nav{
 	color: #EEECE8;
 	text-align: center;
 }
+
+
+/*** shop ***/
+
+.shop-description {
+	margin: 0 auto;
+	position: relative;
+}
+
+.shop-text-box {
+	padding: 20px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	background-color: rgba(74, 62, 62, 0.6 );
+}
+
+.shop-text-box p {
+	color: #EEECE8;
+	text-align: center;
+}
+
+
+.shop-img-box {
+}
+
 
 /*** footer ***/
 
