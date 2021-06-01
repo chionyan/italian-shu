@@ -1,0 +1,13 @@
+// Scss Document
+@function get_vw($size, $viewport: 1000){
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@function get_vw_pc($size, $viewport: $base_width_pc) {
+  @return get_vw($size, $viewport);
+}
+
+@function get_vw_sp($size, $viewport: $base_width_sp) {
+  @return get_vw($size, $viewport);
+}
